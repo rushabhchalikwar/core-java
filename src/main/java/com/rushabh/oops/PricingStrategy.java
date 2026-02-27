@@ -5,5 +5,5 @@ package com.rushabh.oops;
 // ---------------------------------------------------------
 // [Interface Segregation Principle]: We separate pricing logic from the booking object.
 interface PricingStrategy {
-    double calculateFinalPrice(double basePrice);
+  double calculateFinalPrice(double basePrice);
 }

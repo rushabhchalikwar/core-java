@@ -7,14 +7,14 @@ import java.time.LocalDateTime;
 // ---------------------------------------------------------
 class GymBooking extends Booking {
 
-    public GymBooking(String id, User user, LocalDateTime startTime) {
-        super(id, user, startTime);
-    }
+  public GymBooking(String id, User user, LocalDateTime startTime) {
+    super(id, user, startTime);
+  }
 
-    // [Dynamic Polymorphism / Overriding]: Specific logic for Gym
-    @Override
-    public void cancel() {
-        this.isActive = false;
-        System.out.println("[Gym] Cancelled. Full refund initiated.");
-    }
+  // [Dynamic Polymorphism / Overriding]: Specific logic for Gym
+  @Override
+  public void cancel() {
+    this.isActive = false;
+    System.out.println("[Gym] Cancelled. Full refund initiated.");
+  }
 }
