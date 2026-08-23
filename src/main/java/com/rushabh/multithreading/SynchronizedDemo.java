@@ -52,6 +52,4 @@ public class SynchronizedDemo {
             return num;
         }
     }
-
-    char lastChar = s.charAt(s.length());
 }

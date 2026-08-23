@@ -1,4 +1,4 @@
-package com.rushabh.designpatterns.creational;
+package com.rushabh.designpatterns.creational.singleton;
 
 class EagerSingleton {
     // Holds the single shared instance (created immediately at class load time)

@@ -1,4 +1,4 @@
-package com.rushabh.designpatterns.creational;
+package com.rushabh.designpatterns.creational.singleton;
 
 // Bill Pugh's Singleton Design Pattern (also known as the Initialization-on-demand holder idiom)
 // is a thread-safe way to implement the Singleton pattern in Java. It leverages the Java class

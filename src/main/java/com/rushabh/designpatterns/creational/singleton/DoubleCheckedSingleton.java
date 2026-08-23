@@ -1,4 +1,4 @@
-package com.rushabh.designpatterns.creational;
+package com.rushabh.designpatterns.creational.singleton;
 
 public class DoubleCheckedSingleton {
     public static volatile DoubleCheckedSingleton instance;
