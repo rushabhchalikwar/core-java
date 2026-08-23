@@ -1,4 +1,4 @@
-package com.rushabh.designpatterns.creational.factory;
+package com.rushabh.designpatterns.creational.factorymethod;
 
 // Product interface for the Factory Method pattern
 public interface Notification {

@@ -1,4 +1,4 @@
-package com.rushabh.designpatterns.creational.factory;
+package com.rushabh.designpatterns.creational.factorymethod;
 
 // Creator class for the Factory Method pattern
 public abstract class NotificationCreator {

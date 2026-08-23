@@ -1,4 +1,4 @@
-package com.rushabh.designpatterns.creational.factory;
+package com.rushabh.designpatterns.creational.factorymethod;
 
 public class MainClass {
     public static void main(String[] args) {

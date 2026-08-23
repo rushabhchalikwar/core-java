@@ -1,4 +1,4 @@
-package com.rushabh.designpatterns.creational.factory;
+package com.rushabh.designpatterns.creational.factorymethod;
 
 // Concrete Creator class for the Factory Method pattern
 public class SMSNotificationCreator extends NotificationCreator {
