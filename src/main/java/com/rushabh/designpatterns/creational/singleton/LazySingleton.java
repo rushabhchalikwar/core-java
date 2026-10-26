@@ -1,7 +1,7 @@
 package com.rushabh.designpatterns.creational.singleton;
 
 public class LazySingleton {
-    public volatile static LazySingleton instance;
+    private static volatile LazySingleton instance;
 
     private LazySingleton() {
     }

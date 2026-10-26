@@ -1,12 +1,12 @@
 package com.rushabh.designpatterns.creational.singleton;
 
 public class DoubleCheckedSingleton {
-    public static volatile DoubleCheckedSingleton instance;
+    private static volatile DoubleCheckedSingleton instance;
 
     private DoubleCheckedSingleton() {
     }
 
-    public static synchronized DoubleCheckedSingleton getInstance() {
+    public static DoubleCheckedSingleton getInstance() {
         // Fast path: first check without locking
         if (instance == null) {
             // Lock only when the instance might need to be created

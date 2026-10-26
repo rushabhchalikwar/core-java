@@ -1,7 +1,7 @@
 package com.rushabh.designpatterns.creational.singleton;
 
 public class ThreadSafeSingleton {
-    public volatile static ThreadSafeSingleton instance;
+    private static volatile ThreadSafeSingleton instance;
 
     private ThreadSafeSingleton() {
     }
